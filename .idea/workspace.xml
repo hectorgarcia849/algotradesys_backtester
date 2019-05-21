@@ -4,7 +4,6 @@
     <list default="true" id="651eb138-b1f4-4b02-aa02-2748c53bf757" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/long.py" beforeDir="false" afterPath="$PROJECT_DIR$/long.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/portfolio.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/portfolio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,23 +48,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="portfolio.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="portfolio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/portfolio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="83" column="46" lean-forward="true" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
+            <state relative-caret-position="174">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="markowitz.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="markowitz.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="46" column="21" selection-start-line="46" selection-end-line="47" />
+            <state relative-caret-position="204">
+              <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -100,8 +99,8 @@
       <file leaf-file-name="capm.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -124,8 +123,8 @@
       <file leaf-file-name="long.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/long.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="186" column="34" selection-start-line="186" selection-start-column="34" selection-end-line="186" selection-end-column="34" />
+            <state relative-caret-position="157">
+              <caret line="188" selection-start-line="188" selection-end-line="201" selection-end-column="23" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -203,9 +202,9 @@
         <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/mpt_functions.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/long.py" />
-        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py" />
-        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py" />
         <option value="$PROJECT_DIR$/models/portfolio.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py" />
       </list>
     </option>
   </component>
@@ -732,8 +731,8 @@ print('Setting up tests for Technical Analysis module')</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/long.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="186" column="34" selection-start-line="186" selection-start-column="34" selection-end-line="186" selection-end-column="34" />
+        <state relative-caret-position="157">
+          <caret line="188" selection-start-line="188" selection-end-line="201" selection-end-column="23" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -750,10 +749,20 @@ print('Setting up tests for Technical Analysis module')</expression-string>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/portfolio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -762,20 +771,10 @@ print('Setting up tests for Technical Analysis module')</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="46" column="21" selection-start-line="46" selection-end-line="47" />
+        <state relative-caret-position="204">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/portfolio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="83" column="46" lean-forward="true" selection-start-line="83" selection-start-column="46" selection-end-line="83" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>

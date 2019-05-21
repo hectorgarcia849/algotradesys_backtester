@@ -15,10 +15,9 @@ class CAPM:
         self._benchmark_monthly_returns = None
 
     def _prepare_data(self):
-        tickers = list(set(self.portfolio.assets + [self.portfolio.benchmark]))
         data = pd.DataFrame([self.portfolio.historical_data[k]['adj. close'] for k in
                              self.portfolio.historical_data.keys()]).transpose()
-        data.columns = tickers
+        data.columns = self.portfolio.asset_tickers
         self._data = data.drop([self.portfolio.benchmark], axis=1)
         self._data = data.resample('M').last().dropna()
 

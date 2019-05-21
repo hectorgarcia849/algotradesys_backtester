@@ -1,4 +1,3 @@
-import pandas as pd
 from collections import OrderedDict
 from financial_data.APIs.api import AlphaVantageAPI
 
@@ -72,6 +71,10 @@ class Portfolio:
     def historical_data(self):
         return self._historical_data
 
+    @property
+    def asset_tickers(self):
+        return list(set(self.assets + [self.benchmark]))
+
     @historical_data.setter
     def historical_data(self, historical_data):
         if isinstance(historical_data, dict) or historical_data is None:
@@ -81,5 +84,4 @@ class Portfolio:
                             'with values of type Pandas.DataFrame')
 
     def download_historical_data(self):
-        tickers = list(set(self.assets + [self.benchmark]))
-        self.historical_data, _ = AlphaVantageAPI.get_daily_data_for(tickers)
+        self.historical_data, _ = AlphaVantageAPI.get_daily_data_for(self.asset_tickers)
