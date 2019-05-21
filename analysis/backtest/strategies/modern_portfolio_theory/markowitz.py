@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import scipy.optimize as optimization
 import analysis.backtest.strategies.modern_portfolio_theory.mpt_functions as mpt
 from collections import OrderedDict
+import pandas as pd
 
 
 class MarkowitzModel:
@@ -43,7 +44,10 @@ class MarkowitzModel:
         return opt_port
 
     def _prepare_data(self):
-        self._data = self.portfolio.historical_data.drop([self.portfolio.benchmark], axis=1)
+        tickers = list(set(self.portfolio.assets + [self.portfolio.benchmark]))
+        data = pd.DataFrame([self.portfolio.historical_data[k]['adj. close'] for k in self.portfolio.historical_data.keys()]).transpose()
+        data.columns = tickers
+        self._data = data.drop([self.portfolio.benchmark], axis=1)
 
     def initialize_weights(self):
         weights = np.random.random(self.portfolio.n_assets)
@@ -52,7 +56,6 @@ class MarkowitzModel:
 
     def generate_portfolios(self):
         # Monte-Carlo Simulation
-        print(self.portfolio.historical_data)
         self._prepare_data()
         preturns = np.array([])
         pvolatilaties = np.array([])

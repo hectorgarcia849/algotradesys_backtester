@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
 import analysis.backtest.strategies.modern_portfolio_theory.mpt_functions as mpt
 import numpy as np
+import pandas as pd
 
 
 class CAPM:
@@ -14,7 +15,12 @@ class CAPM:
         self._benchmark_monthly_returns = None
 
     def _prepare_data(self):
-        self._data = self.portfolio.historical_data.resample('M').last().dropna()
+        tickers = list(set(self.portfolio.assets + [self.portfolio.benchmark]))
+        data = pd.DataFrame([self.portfolio.historical_data[k]['adj. close'] for k in
+                             self.portfolio.historical_data.keys()]).transpose()
+        data.columns = tickers
+        self._data = data.drop([self.portfolio.benchmark], axis=1)
+        self._data = data.resample('M').last().dropna()
 
     def run(self, risk_free=0.05):
         self._prepare_data()

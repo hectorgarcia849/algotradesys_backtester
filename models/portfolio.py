@@ -5,12 +5,12 @@ from financial_data.APIs.api import AlphaVantageAPI
 
 class Portfolio:
 
-    def __init__(self, assets, benchmark):
+    def __init__(self, assets, benchmark, historical_data=None):
         self._assets = assets
         self._benchmark = benchmark
         self._performance = None
         self._weights = self._initialize_weights()
-        self._historical_data = None
+        self._historical_data = historical_data
 
     @property
     def weights(self):
@@ -74,14 +74,12 @@ class Portfolio:
 
     @historical_data.setter
     def historical_data(self, historical_data):
-        if isinstance(historical_data, pd.DataFrame) or historical_data is None:
+        if isinstance(historical_data, dict) or historical_data is None:
             self._historical_data = historical_data
         else:
-            raise TypeError('instance variable historical_data must be of type Pandas.DataFrame')
+            raise TypeError('instance variable historical_data must be of type dict '
+                            'with values of type Pandas.DataFrame')
 
     def download_historical_data(self):
         tickers = list(set(self.assets + [self.benchmark]))
-        res, _ = AlphaVantageAPI.get_daily_data_for(tickers)
-        data = pd.DataFrame([res[k]['adj. close'] for k in res.keys()]).transpose()
-        data.columns = tickers
-        self.historical_data = data
+        self.historical_data, _ = AlphaVantageAPI.get_daily_data_for(tickers)
