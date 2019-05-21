@@ -35,7 +35,7 @@ class AlphaVantageAPI:
             df['date'] = pd.to_datetime(df['date'])
             df.index = df['date']
             df = df.drop(['date'], axis=1)
-            df = df[["open", "high", "low", "close", "volume"]]
+            # df = df[["open", "high", "low", "close", "volume"]]
             for col in df.columns:
                 df[col] = df[col].astype('float')
             df[col] = df[col].resample("1d").mean()

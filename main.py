@@ -1,6 +1,6 @@
 import sys
 import os
-from analysis.backtest.strategies.moving_average import MovingAverageStrategy
+from analysis.backtest.strategies.technical_analysis.moving_average import MovingAverageStrategy
 from datetime import datetime
 import pytz
 from models.portfolio import Portfolio
@@ -16,3 +16,4 @@ if __name__ == "__main__":
     mov_avg_strategy.run(portfolio, start, end)
 
     print(portfolio.performance)
+    print(portfolio.performance[['portfolio_value', 'benchmark_period_return']])

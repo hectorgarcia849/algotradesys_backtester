@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="651eb138-b1f4-4b02-aa02-2748c53bf757" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithmic_trading.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/mpt_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/analysis/backtest/strategies/technical_analysis/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/long.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtest/abstract_classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtest/abstract_classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtest/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analysis/backtest/strategies/moving_average.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysis/backtest/strategies/technical_analysis/moving_average.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/financial_data/APIs/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/financial_data/APIs/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/portfolio.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/portfolio.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,11 +25,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="momentum.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wip/technical_analysis/momentum.py">
+      <file leaf-file-name="abstract_classes.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/backtest/abstract_classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3077">
-              <caret line="186" selection-end-line="197" />
+            <state relative-caret-position="68">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,61 +46,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abstract_classes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/backtest/abstract_classes.py">
+      <file leaf-file-name="moving_average.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/technical_analysis/moving_average.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="867">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
+            <state relative-caret-position="1666">
+              <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
               <folding>
-                <element signature="e#0#35#0" expanded="true" />
+                <element signature="e#0#89#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="moving_average.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/moving_average.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zipline_notes.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/zipline_notes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="96" selection-start-line="96" selection-end-line="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="portfolio.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="portfolio.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/portfolio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="153">
+              <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/financial_data/APIs/api.py">
+      <file leaf-file-name="markowitz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="153">
+              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mpt_functions.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/mpt_functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="capm.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <folding>
+                <element signature="e#1#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -97,8 +109,8 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="7" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -106,11 +118,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
+      <file leaf-file-name="api.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financial_data/APIs/api.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="595">
+              <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="long.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/long.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="189" column="25" lean-forward="true" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,8 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/alpha_vantage/AlphaVantage.py" />
-        <option value="$PROJECT_DIR$/financial_data/AlphaVantage.py" />
         <option value="$PROJECT_DIR$/financial_data/api.py" />
         <option value="$PROJECT_DIR$/financial_data/AlgoTradeDBConnector.py" />
         <option value="$PROJECT_DIR$/financial_data/Classes/AlgoTradeDBConnector.py" />
@@ -172,15 +197,24 @@
         <option value="$PROJECT_DIR$/analysis/research/example.py" />
         <option value="$PROJECT_DIR$/analysis/research/example2.py" />
         <option value="$PROJECT_DIR$/portfolio/Portfolio.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/financial_assets/portfolio.py" />
         <option value="$PROJECT_DIR$/analysis/technical_analysis/abstract_classes.py" />
         <option value="$PROJECT_DIR$/financial_data/main.py" />
         <option value="$PROJECT_DIR$/analysis/research/strategies/moving_average.py" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/financial_data/APIs/api.py" />
         <option value="$PROJECT_DIR$/analysis/technical_analysis/momentum.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/moving_average.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/financial_data/APIs/api.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/long_strategy.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/abstract_classes.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/helper_functions.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/mpt_functions.py" />
+        <option value="$PROJECT_DIR$/long.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py" />
+        <option value="$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py" />
+        <option value="$PROJECT_DIR$/models/portfolio.py" />
       </list>
     </option>
   </component>
@@ -196,7 +230,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,10 +237,55 @@
               <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
               <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="backtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="backtest" type="462c0819:PsiDirectoryNode" />
+              <item name="strategies" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="backtest" type="462c0819:PsiDirectoryNode" />
+              <item name="strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="modern_portfolio_theory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="analysis" type="462c0819:PsiDirectoryNode" />
+              <item name="backtest" type="462c0819:PsiDirectoryNode" />
+              <item name="strategies" type="462c0819:PsiDirectoryNode" />
+              <item name="technical_analysis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="financial_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algotradesys_backtester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algotradesys_backtester" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -416,23 +494,23 @@
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22457068" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.09379128" side_tool="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32859176" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.9062087" weight="0.32859176" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32859176" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497358" visible="true" weight="0.32859176" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997155" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.497358" visible="true" weight="0.27311522" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997155" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32859176" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -440,7 +518,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -455,32 +533,6 @@ print('Setting up tests for Technical Analysis module')</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/analysis/tests/test_technical_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financial_data/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/financial_data/main.py" />
-    <entry file="file://$PROJECT_DIR$/notes.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financial_data/db_connectors/sql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financial_data/db_connectors/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/financial_data/APIs/api.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -602,48 +654,7 @@ print('Setting up tests for Technical Analysis module')</expression-string>
     <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtest/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/financial_data/main.py" />
-    <entry file="file://$PROJECT_DIR$/analysis/tests/test_technical_analysis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/portfolio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/financial_data/APIs/api.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/zipline_notes.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1632">
@@ -658,34 +669,117 @@ print('Setting up tests for Technical Analysis module')</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/moving_average.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/long_strategy.py" />
+    <entry file="file://$PROJECT_DIR$/financial_data/APIs/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtest/main.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_sourcecode.zip/markowitz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-217">
+          <caret line="93" column="39" lean-forward="true" selection-start-line="93" selection-start-column="39" selection-end-line="93" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/tests/test_technical_analysis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wip/technical_analysis/momentum.py" />
     <entry file="file://$PROJECT_DIR$/analysis/backtest/abstract_classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wip/technical_analysis/momentum.py">
+    <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/technical_analysis/moving_average.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3077">
-          <caret line="186" selection-end-line="197" />
+        <state relative-caret-position="1666">
+          <caret line="98" column="49" selection-start-line="98" selection-start-column="49" selection-end-line="98" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#89#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="7" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/markowitz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/long.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="189" column="25" lean-forward="true" selection-start-line="189" selection-start-column="25" selection-end-line="189" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/mpt_functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysis/backtest/strategies/modern_portfolio_theory/capm.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="e#1#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/portfolio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="29" column="17" lean-forward="true" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

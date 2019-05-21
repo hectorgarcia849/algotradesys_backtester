@@ -30,6 +30,7 @@ class MovingAverageStrategy(AbstractBackTester):
         context.i += 1
 
         if context.i < 300:
+            record(action="NONE")
             return
 
         short_mavg = data.history(context.asset, 'price', bar_count=100, frequency="1d").mean()
@@ -41,9 +42,21 @@ class MovingAverageStrategy(AbstractBackTester):
         if short_mavg > long_mavg and context.portfolio.cash > 0:
             # order_target_percent orders as many shares as needed to
             # achieve the desired number of shares as percentage of the models
+            # limit price:
+            #   when ordering: limit_price <= asset_price, when selling: limit_price >= asset_price
+            # stop price:
+            #   when ordering: stop_price >= asset_price, when selling: stop_price <= asset_price
             order_target_percent(context.asset, .10)
+            print('BUY')
+            record(action="BUY")
+
         elif short_mavg < long_mavg:
             order_target(context.asset, 0)
+            print('SELL')
+            record(action="SELL")
+
+        else:
+            record(action="NONE")
 
         record(asset_prices=data.current(context.asset, 'price'),
                short_mavg=short_mavg,
