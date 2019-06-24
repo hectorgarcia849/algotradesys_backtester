@@ -6,6 +6,10 @@ import analysis.backtest.strategies.modern_portfolio_theory.mpt_functions as mpt
 from collections import OrderedDict
 import pandas as pd
 
+# Markowitz (MPT): Formulation for risk diversification in investing, that aims to select a group of investment
+# assets which collectively have lower risk than any single asset on its own.  The objective is to choose a portfolio
+#  with the maximum possible expected return for a given amount of risk.
+
 
 class MarkowitzModel:
 
