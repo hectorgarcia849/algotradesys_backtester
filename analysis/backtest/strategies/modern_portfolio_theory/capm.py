@@ -3,6 +3,20 @@ import analysis.backtest.strategies.modern_portfolio_theory.mpt_functions as mpt
 import numpy as np
 import pandas as pd
 
+# CAPM: Accounts for an assetst sensitivity to non-diversifiable risk (also known as systematic risk and market
+# risk).  This is represented with the quantity Beta, as well as the expected return of the market and the expected
+# return of a theoretical risk-free asset.
+#
+# Alpha is the excess return above and beyond some risk-free rate or market index.
+# Beta is the measurement of volatility or systematic risk of a portfolio.
+#
+# Betas >= 1 represent an above average riskiness
+# Beta < 1 represent a below average riskiness
+#
+# Sharpe ratio helps in understanding the return of an investment compared to its risk.  The ratio is the average
+# return earned in excess of the risk-free rate per unit of volatility or total risk.  The greater the Sharpe ratio,
+# the better its risk-adjusted performance.  A negative sharpe ratio is not good at all.  Sharpe: (return_portfolio -
+#  return_risk_free) / volatility of portfolio
 
 class CAPM:
 
