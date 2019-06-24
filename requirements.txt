@@ -55,3 +55,4 @@ win-unicode-console==0.5
 wincertstore==0.2
 wrapt==1.11.1
 zipline==1.3.0
+flask==1.0.3
