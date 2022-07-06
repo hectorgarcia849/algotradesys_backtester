@@ -20,7 +20,7 @@ ipython-genutils==0.2.0
 jedi==0.13.3
 Logbook==1.4.3
 lru-dict==1.1.6
-lxml==4.3.3
+lxml==4.9.1
 Mako==1.0.1
 MarkupSafe==0.23
 more-itertools==7.0.0
