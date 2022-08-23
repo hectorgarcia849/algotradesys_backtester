@@ -26,7 +26,7 @@ MarkupSafe==0.23
 more-itertools==7.0.0
 networkx==1.11
 numexpr==2.6.9
-numpy==1.15.4+mkl
+numpy==1.22.0
 pandas==0.18.1
 pandas-datareader==0.2.1
 parso==0.4.0
